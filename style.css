@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color: green;
+    padding: 10px 20px;
+    height: 60px;
+    gap: 40%;
+    position: sticky;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.left{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.left h1{
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.select{
+    padding-left: 270px; 
+    border: none;
+}
+.select select{
+    height: 40px;
+    width: 70px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+.select select:hover{
+    cursor: pointer;
+}
+
+.welcome{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color: white;
+    font-size: 20px;
+    background-color: greenyellow;
+
+}
+.FrontPage{
+    background-image: url("GATE.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.FrontPage h2{
+    color: red;
+    font-size: 40px;
+    padding-top: 230px;
+    padding-bottom: 20px;
+}
+.FrontPage p{
+    color: white;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.courses h3{
+    color: green;
+    font-size: 30px;
+    padding-bottom: 20px;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    border-bottom: 2px solid green 
+}
+
+#subject{
+    display: flex;
+    justify-content: center;   /* keeps items in center */
+    align-items: center;
+    flex-wrap: wrap;           /* moves to next line on small screens */
+    gap: 40px;                 /* space between cards */
+    max-width: 1000px;         /* limits width */
+    margin: 0 auto;            /* centers container */
+    padding: 30px 20px;
+}
+.a{
+    background-color: lightgray;
+    border-radius: 10%;
+    text-align: center;
+    align-items: center;
+    padding:20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.a:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+#subject img{
+    height: 250px;
+    width: 250px;
+    border-radius: 10%;
+    background-color: lightgray;
+    text-align: center;
+    align-items: center;
+    padding:0px;  
+}
+#subject h2{
+    margin-top: 15px;
+    color: #2e7d32;
+    font-size: 15px;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+    height: 550px;
+    width: 100%; 
+    text-align:center;
+    border: 2px solid red;
+}
+.contact{
+     padding-top: 50px;
+}
+.contact img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 10px;
+    justify-content: space-evenly;
+    padding: 1opx
+}
+footer p{
+    color: white;
+    font-size: 15px;
+    padding-top: 20px
+}
+.links{
+    display: flex;
+    justify-content: space-evenly;;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+    background-color: rgb(19, 17, 17);
+}
+.white{
+    color: white;
+    font-size: 15px;
+}
